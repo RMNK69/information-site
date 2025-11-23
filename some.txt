@@ -1,0 +1,157 @@
+привіт. У мене є така структура:
+
+
+
+<div class="banner-scroller">  
+
+
+
+            <div class="banner-element">
+
+
+
+              <img class="banner_image" src="images/banner_photo_1.JPG" alt="Banner Image 1"/>
+
+
+
+            </div>
+
+
+
+            <div class="banner-element">
+
+
+
+              <img class="banner_image" src="images/banner_photo_2.JPG" alt="Banner Image 2"/>
+
+
+
+            </div>
+
+
+
+            <div class="banner-element">
+
+
+
+              <img class="banner_image" src="images/banner_photo_3.JPG" alt="Banner Image 3"/>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+ось стилі до неї:
+
+
+
+.banner-scroller {
+
+
+
+    width: 100%;
+
+
+
+    height: 100%;
+
+
+
+    display: flex;
+
+
+
+    white-space: nowrap; 
+
+
+
+    scroll-snap-type: x mandatory; 
+
+
+
+    scroll-behavior: smooth;
+
+
+
+}
+
+
+
+
+
+
+
+.banner-element {
+
+
+
+    flex-shrink: 0;
+
+
+
+    width: 100%;
+
+
+
+    height: 100%;
+
+
+
+    overflow: hidden;
+
+
+
+    position: relative;
+
+
+
+    scroll-snap-align: start; /* Optional: aligns the start of each item when scrolling */
+
+
+
+}
+
+
+
+
+
+
+
+.banner_image {
+
+
+
+    display: block; /* remove inline whitespace */
+
+
+
+    width: 100%;
+
+
+
+    height: 100%;
+
+
+
+    object-fit: cover; /* fill and crop to container */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+мені потрібен скрипт слайдера-каруселі, з такою логікою: є 2 кнопки по сторонах, вліво і вправо. Є 3 banner-element, кожен з них має свій індекс, 1, 2 і 3. так як при старті сторінки, за замовчуванням, у нас є

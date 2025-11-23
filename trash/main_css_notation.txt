@@ -1,0 +1,27 @@
+/* --- Деякі виправлення та уточнення --- */
+/* Адаптація розмірів та позицій */
+.nav-item {
+    /* Для пунктів навігації, можливо, знадобиться більше специфічних правил */
+}
+
+/* Іконки соцмереж потребують детальнішого опису, але це початок */
+.social-icon.js,
+.social-icon.react,
+.social-icon.css,
+.social-icon.html,
+.social-icon.python,
+.social-icon.java {
+    /* Загальні стилі для всіх іконок */
+}
+
+/* Деталізовані стилі для окремих іконок */
+.social-icon.js { background-image: url('path/to/js-icon.png'); } /* Приклад */
+.social-icon.react { background-image: url('path/to/react-icon.png'); }
+.social-icon.css { background-image: url('path/to/css-icon.png'); }
+.social-icon.html { background-image: url('path/to/html-icon.png'); }
+.social-icon.python { background-image: url('path/to/python-icon.png'); }
+.social-icon.java { background-image: url('path/to/java-icon.png'); }
+
+/* Для правильного відображення елементів, які створюються за допомогою ::before та ::after, */
+/* потрібно переконатися, що їхній контент (background, outline тощо) відповідає візуальному */
+/* представленню. */

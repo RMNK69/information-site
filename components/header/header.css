@@ -52,7 +52,7 @@
 .left-side,
 .right-side {
     height: 100%;
-    width: 50%; /* Кожна сторона займає 50% ширини */
+    flex: 1; /* гнучкий займання місця замість фіксованого 50% */
 }
 
 .left-side {
@@ -78,7 +78,7 @@
 .logo img {
     height: 90%;
     object-fit: contain;
-    width: auto;
+    width: 37%;
 }
 
 /* Стилі для основних навігаційних кнопок */

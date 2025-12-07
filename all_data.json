@@ -1,0 +1,60 @@
+{
+  "ua": {
+    "header": {
+      "langSwitch": "UA",
+      "logoAlt": "Інженерія програмного забезпечення"
+    },
+    "nav": {
+      "academic": "Академія",
+      "contact": "Контакти",
+      "students": "Студенти"
+    },
+    "index": {
+      "ourLifeTitle": "OUR LIFE",
+      "bannerAlt1": "Банер 1"
+    },
+    "info": {
+      "mainTitle": "Чому саме наша спеціальність?",
+      "section1": {
+        "h2": "Великий попит і перспективи",
+        "p": "ІТ-сфера стрімко розвивається, і попит на програмістів лише зростає. Компанії у всьому світі потребують кваліфікованих фахівців."
+      },
+      "courses": {
+        "element1": "Штучний інтелект",
+        "element2": "Веб-програмування"
+      }
+    },
+    "footer": {
+      "academic": "Академія"
+    }
+  },
+  "en": {
+    "header": {
+      "langSwitch": "EN",
+      "logoAlt": "Software Engineering"
+    },
+    "nav": {
+      "academic": "Academic",
+      "contact": "Contact",
+      "students": "Students"
+    },
+    "index": {
+      "ourLifeTitle": "OUR LIFE",
+      "bannerAlt1": "Banner 1"
+    },
+    "info": {
+      "mainTitle": "Why our specialty?",
+      "section1": {
+        "h2": "High demand and prospects",
+        "p": "The IT field is rapidly evolving and demand for programmers continues to grow. Companies worldwide need qualified specialists."
+      },
+      "courses": {
+        "element1": "Artificial Intelligence",
+        "element2": "Web Development"
+      }
+    },
+    "footer": {
+      "academic": "Academic"
+    }
+  }
+}

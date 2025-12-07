@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(208, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.smile {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 0, 131);
+    position: relative;
+
+}

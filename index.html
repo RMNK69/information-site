@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js" defer></script>
-    <script src="language_and_text.js" defer></script>
+    <!-- <script src="language_and_text.js" defer></script> -->
     <link rel="stylesheet" href="index_main_new.css">
     <link rel="stylesheet" href="components/footer/footer.css">
     <link rel="stylesheet" href="components/header/header.css">
@@ -12,31 +12,33 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-content">
-            <div class="logo-and-navigation-buttons">
-                <div class="left-side">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/Dark logo with text.png" alt="Інженерія програмного забезпечення" data-i18n="header.logoAlt"/></a>
-                    </div>
-                </div>
-                <div class="right-side">
-                    <div class="navigation-buttons">
-                        <ul>
-                            <li><a class="lang-switch" type="button" data-i18n="header.langSwitch">UA</a></li> 
-                            <li><a href="info.html" data-i18n="nav.academic">Academic</a></li>
-                            <li><a href="news.asp" data-i18n="nav.contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="contact.asp">Students</a>
-                                <div class="dropdown-content">
-                                    <a href="contact.asp">Students (sub-link)</a>
-                                    <a href="another-link.asp">Another sub-link</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="header-content">
+        <div class="logo-and-navigation-buttons">
+          <div class="left-side">
+            <div class="logo">
+              <a href="index.html"><img src="images/Dark logo with text.png" alt="Інженерія програмного забезпечення" data-i18n="header.logoAlt"/></a>
             </div>
+          </div>
+          <div class="right-side">
+            <div class="navigation-buttons">
+              <ul>
+                <!-- <li><a class="lang-switch" type="button" data-i18n="header.langSwitch">UA</a></li> -->
+                <li><a href="info.html" data-i18n="nav.academic">Про нас</a></li>
+                <li><a href="https://polytech.cv.ua/abituriyentam/">Контакти</a></li>
+                <li><a href="index.html">Головна</a></li>
+                <!-- <li class="dropdown">
+                  <a href="contact.asp">Головна</a>
+                  <div class="dropdown-content">
+                    <a href="contact.asp">Students (sub-link)</a>
+                    <a_protocol */
+ clean up the code by removing the commented-out dropdown menu and ensuring all links are properly formatted.
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
@@ -58,7 +60,7 @@
                     <div class="ourlife-area">
                         <div class="ourlife-square">
                             <div class="text-field">
-                                <h2 data-i18n="index.ourLifeTitle">OUR LIFE</h2>
+                                <h2 data-i18n="index.ourLifeTitle">НАШЕ ЖИТТЯ</h2>
                                 <p>Залишу це поки англійською, бо не знайшла подібного шрифту, але щоб був кирилицею. Фото кльове, наведіть на нього курсором.</p>
                             </div>
                             <div class="image-field">
@@ -70,7 +72,7 @@
                     <div class="news-area">
                         <div class="news-content-and-title">
                             <div class="news-general-title">
-                                <h2>News</h2>
+                                <h2>Новини</h2>
                             </div>
                             <div class="news-content">
                                 <span class="detailed-news">
@@ -113,7 +115,7 @@
                 <div class="reviews-area">
                     <div class="reviews-field">
                         <div class="reviews-general-title">
-                            <h2>Reviews</h2>
+                            <h2>Відгуки</h2>
                         </div>
                         <div class="reviews-content">
                             <div class="pfp-name-status">
@@ -135,7 +137,7 @@
                                 </svg>
                             </div>
                             <div class="comments">
-                                <p><b>Beautiful place!</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incidiccusamus repellat similique unde ullam officia!</p>
+                                <p><b>Чудове місце!</b> Дуже подобається навчатися в цьому прекрасному колледжі!</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +145,7 @@
 
                 <div class="partners-area">
                     <div class="partners-general-title">
-                        <h2>Our Partners</h2>
+                        <h2>Наші партнери</h2>
                     </div>
                     
                     <div class="partners-logos">
@@ -181,11 +183,9 @@
             <div class="f-right-side">
                 <div class="f-navigation-buttons">
                     <ul>
-                        <li><a href="info.html" data-i18n="nav.academic">Academic</a></li>
-                        <li><a href="news.asp" data-i18n="nav.contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="contact.asp">Students</a>
-                        </li>
+                        <li><a href="info.html" data-i18n="nav.academic">Про нас</a></li>
+                        <li><a href="https://polytech.cv.ua/abituriyentam/">Контакти</a></li>
+                        <li><a href="index.html">Головна</a></li>
                     </ul>
                 </div>
             </div>
